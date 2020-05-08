@@ -7,8 +7,8 @@ public class Ex02_01 {
 		int a, b;
 		int result;
 		
-		a = 100;
-		b = 50;
+		a = 50;
+		b = 100;
 		
 		result = a + b;
 		System.out.println(a + "+" + b + "=" + result);
