@@ -12,7 +12,7 @@ public class EX2 {
 			}
 			System.out.println("");
 		}
-		for (a = 0; a < 6; a++) {
+		for (a = 0; a < 5; a++) {
 			for (b = 0; b < 5 - a; b++) {
 				System.out.print("*");
 			}
