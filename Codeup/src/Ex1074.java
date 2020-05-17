@@ -1,11 +1,14 @@
 import java.util.Scanner;
 
-public class Ex1018 {
+public class Ex1074 {
+
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		String a = s.next();
-		System.out.printf("%s", a);
-
+		int a = s.nextInt();
+		while (a>0) {
+			System.out.println(a);
+			a--;
+		}
 	}
 
 }
