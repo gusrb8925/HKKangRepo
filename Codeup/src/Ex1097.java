@@ -37,7 +37,6 @@ public class Ex1097 {
 			}
 			System.out.println();
 		}
-		
 
 	}
 
