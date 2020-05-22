@@ -2,8 +2,8 @@
 public class Watermelon {
 	public static String solution(int n) {
 		String answer = "";
-		String su = "¼ö";
-		String bak = "¹Ú";
+		String su = "ìˆ˜";
+		String bak = "ë°•";
 
 		for (int i = 1; i <= n; i++) {
 			if (i % 2 != 0) {
