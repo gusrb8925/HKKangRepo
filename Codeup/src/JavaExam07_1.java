@@ -6,7 +6,7 @@ public class JavaExam07_1 {
 		i = 0;
 		
 		while (i<5) {
-			System.out.printf("while ¹®À» °øºÎÇÕ´Ï´Ù.\n");
+			System.out.printf("while ë¬¸ì„ ì¶œë ¥í•©ë‹ˆë‹¤.\n");
 			i++;
 		}
 

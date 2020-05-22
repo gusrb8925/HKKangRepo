@@ -10,11 +10,11 @@ public class JavaEx07_4 {
 		String c;
 
 		while (true) {
-			System.out.printf("Ã¹ ¹øÂ° ¼ö¸¦ ÀÔ·Â:\n");
+			System.out.printf("ì²« ë²ˆì§¸ ê°’ì„ ì…ë ¥í•˜ì„¸ìš”:\n");
 			a = s.nextInt();
-			System.out.printf("µÎ ¹øÂ° ¼ö¸¦ ÀÔ·Â:\n");
+			System.out.printf("ë‘ ë²ˆì§¸ ê°’ì„ ì…ë ¥í•˜ì„¸ìš”:\n");
 			b = s.nextInt();
-			System.out.printf("°è»êÇÒ ¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä:\n");
+			System.out.printf("ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì„¸ìš”:\n");
 			c = s.next();
 
 			switch (c) {
@@ -34,7 +34,7 @@ public class JavaEx07_4 {
 				System.out.printf("%d % %d = %d\n", a, b, a % b);
 				break;
 			default:
-				System.out.println("¿¬»êÀÚ¸¦ Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ß¸ï¿½ ï¿½Ô·ï¿½ï¿½ß½ï¿½ï¿½Ï´ï¿½.");
 			}
 		}
 	}

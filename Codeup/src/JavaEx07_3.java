@@ -8,9 +8,9 @@ public class JavaEx07_3 {
 		int b;
 		
 		while (true) {
-			System.out.printf("´õÇÒ Ã¹ ¹ø¤Š ¼ö ÀÔ·Â :");
+			System.out.printf("ì²« ë²ˆì§¸ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” :");
 			a = s.nextInt();
-			System.out.printf("´õÈú µÎ ¹øÂ° ¼ö ÀÔ·Â :");
+			System.out.printf("ë‘ ë²ˆì§¸ ê°’ì„ ì…ë ¥í•˜ì„¸ìš”:");
 			b = s.nextInt();
 			
 			System.out.printf("%d + %d=%d \n", a, b, a+b);

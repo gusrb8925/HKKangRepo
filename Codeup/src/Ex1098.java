@@ -8,12 +8,12 @@ public class Ex1098 {
 		int b = s.nextInt();
 		int[][] ar = new int[a][b];
 
-		int n = s.nextInt();// ¸·´ë°¹¼ö
+		int n = s.nextInt();
 		for (int i = 0; i < n; i++) {
-			int l = s.nextInt();// ±æÀÌ
-			int d = s.nextInt();// ¹æÇâ(0°¡·Î,1¼¼·Î)
-			int x = s.nextInt();// xÁÂÇ¥
-			int y = s.nextInt();// yÁÂÇ¥
+			int l = s.nextInt();
+			int d = s.nextInt();
+			int x = s.nextInt();
+			int y = s.nextInt();
 
 			if (d == 0) {
 				for (int q = 0; q < l; q++) {

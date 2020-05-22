@@ -8,11 +8,11 @@ public class Ex1097 {
 
 		for (int i = 0; i < 19; i++) {
 			for (int j = 0; j < 19; j++) {
-				ar[i][j] = s.nextInt();// 바둑판입력받기
+				ar[i][j] = s.nextInt();
 			}
 		}
 
-		int a = s.nextInt();// 뒤집기 횟수입력받기
+		int a = s.nextInt();
 		for (int i = 0; i < a; i++) {
 			int x = s.nextInt();
 			int y = s.nextInt();

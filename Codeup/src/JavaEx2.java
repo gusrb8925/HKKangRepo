@@ -5,7 +5,7 @@ public class JavaEx2 {
 		int i = 3;
 		while (i <= 9) {
 			if (i == 3 || i == 5) {
-				System.out.println("<" + i + "´Ü>");
+				System.out.println("<" + i + "ë‹¨>");
 			}
 			int j = 1;
 			while (j <= 9) {
