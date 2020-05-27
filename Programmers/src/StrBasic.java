@@ -1,4 +1,3 @@
-
 public class StrBasic {
 	public static boolean solution(String s) {
 		boolean answer = true;
