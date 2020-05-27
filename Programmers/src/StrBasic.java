@@ -10,7 +10,6 @@ public class StrBasic {
 				return false;
 			}
 		}
-		
 
 		return answer;
 	}
