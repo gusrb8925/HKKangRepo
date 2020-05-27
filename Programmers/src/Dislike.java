@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Dislike {
+	public static int[] solution(int[] arr) {
+		int[] answer = {};
+		ArrayList<Integer> al = new ArrayList<Integer>();
+
+		for (int i = 0; i < arr.length - 1; i++) {
+			if (arr[i] != arr[i + 1]) {
+				al.add(arr[i]);
+			}
+		}
+
+		al.add(arr[arr.length - 1]);
+		answer = new int[al.size()];
+
+		for (int j = 0; j < answer.length; j++) {
+			answer[j] = al.get(j);
+		}
+		return answer;
+	}
+
+	public static void main(String[] args) {
+		int[] arr1 = { 1, 1, 3, 3, 0, 1, 1 };
+		int[] arr2 = { 4, 4, 4, 3, 3 };
+		System.out.println(Arrays.toString(solution(arr1)));
+		System.out.println(Arrays.toString(solution(arr2)));
+	}
+}
