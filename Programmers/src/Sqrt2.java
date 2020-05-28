@@ -2,7 +2,7 @@
 public class Sqrt2 {
 	public static long solution(long n) {
 		double a = Math.sqrt(n);
-		return a == (int)a ?  (long)Math.pow(Math.sqrt(n)+1, 2) : -1 ;
+		return a == (int) a ? (long) Math.pow(Math.sqrt(n) + 1, 2) : -1;
 	}
 
 	public static void main(String[] args) {
