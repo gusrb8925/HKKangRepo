@@ -1,6 +1,6 @@
-import java.util.*;
+import java.util.Arrays;
 
-class MarathonPro {
+class Marathon {
 	public static String solution(String[] part, String[] com) {
 		Arrays.sort(part);
 		Arrays.sort(com);
