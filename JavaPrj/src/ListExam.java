@@ -15,6 +15,14 @@ public class ListExam {
 		for (int i = 0; i < rList.size(); i++) {
 			System.out.println("[" + i + "]번째 배열 기억공간 :" + rList.get(i));
 		}
+		
+		Iterator<String> it = rList.iterator();
+		while (it.hasNext()) {
+			String name = it.next();
+			
+			System.out.println("이름 : " + name);
+		}
+
 	}
 
 }
