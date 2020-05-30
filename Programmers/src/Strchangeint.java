@@ -1,7 +1,7 @@
 
 public class Strchangeint {
 	public static int solution(String s) {
-		int answer = Integer.parseInt(s);
+		int answer = Integer.valueOf(s);
 		return answer;
 	}
 
