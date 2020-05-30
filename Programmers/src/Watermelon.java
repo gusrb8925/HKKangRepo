@@ -11,7 +11,6 @@ public class Watermelon {
 			} else {
 				answer += bak;
 			}
-
 		}
 		return answer;
 	}
@@ -21,7 +20,5 @@ public class Watermelon {
 		int j = 4;
 		System.out.println(solution(i));
 		System.out.println(solution(j));
-
 	}
-
 }
