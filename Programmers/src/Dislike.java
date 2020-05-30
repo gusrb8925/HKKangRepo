@@ -3,7 +3,7 @@ import java.util.*;
 public class Dislike {
 	public static int[] solution(int[] arr) {
 		int[] answer = {};
-		ArrayList<Integer> al = new ArrayList<Integer>();
+		List<Integer> al = new ArrayList<Integer>();
 
 		for (int i = 0; i < arr.length - 1; i++) {
 			if (arr[i] != arr[i + 1]) {
@@ -12,10 +12,13 @@ public class Dislike {
 		}
 
 		al.add(arr[arr.length - 1]);
-		answer = new int[al.size()];
 
-		for (int j = 0; j < answer.length; j++) {
-			answer[j] = al.get(j);
+		answer = new int[al.size()];
+		int i = 0;
+		Iterator<Integer> it = al.iterator();
+		while (it.hasNext()) {
+			answer[i] = it.next();
+			i++;
 		}
 		return answer;
 	}
