@@ -15,13 +15,14 @@ public class DivIntArray {
 		}
 
 		answer = new int[al.size()];
-
-		for (int i = 0; i < al.size(); i++) {
-			answer[i] = al.get(i);
+		int i = 0;
+		Iterator<Integer> it = al.iterator();
+		while (it.hasNext()) {
+			answer[i] = it.next();
+			i++;
 		}
 
 		Arrays.sort(answer);
-
 		return answer;
 	}
 
