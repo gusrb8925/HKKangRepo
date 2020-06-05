@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Dislike2 {
 	public static int[] solution(int[] arr) {
-		ArrayList<Integer> al = new ArrayList<Integer>();
+		ArrayList<Integer> al = new ArrayList<>();
 		int a = 10;
 		for (int i : arr) {
 			if (a != i) {
