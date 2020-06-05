@@ -3,7 +3,7 @@ import java.util.*;
 public class Dislike {
 	public static int[] solution(int[] arr) {
 		int[] answer = {};
-		List<Integer> al = new ArrayList<Integer>();
+		List<Integer> al = new ArrayList<>();
 
 		for (int i = 0; i < arr.length - 1; i++) {
 			if (arr[i] != arr[i + 1]) {
