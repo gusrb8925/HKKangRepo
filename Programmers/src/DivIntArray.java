@@ -3,7 +3,7 @@ import java.util.*;
 public class DivIntArray {
 	public static int[] solution(int[] arr, int div) {
 		int[] answer = {};
-		ArrayList<Integer> al = new ArrayList<Integer>();
+		ArrayList<Integer> al = new ArrayList<>();
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] % div == 0) {
 				al.add(arr[i]);
