@@ -14,7 +14,7 @@ public class JavaEx2 {
 
 			}
 			i++;
-			System.out.println("");
+			System.out.println();
 		}
 	}
 
