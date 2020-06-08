@@ -2,7 +2,7 @@ import java.util.*;
 
 public class RemoveMinNum {
 	public static int[] solution(int[] arr) {
-		ArrayList<Integer> al = new ArrayList<Integer>();
+		List<Integer> al = new ArrayList<>();
 
 		if (arr.length <= 1) {
 			return new int[] { -1 };
