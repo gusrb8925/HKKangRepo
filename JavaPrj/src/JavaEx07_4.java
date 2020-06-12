@@ -34,9 +34,8 @@ public class JavaEx07_4 {
 				System.out.printf("%d % %d = %d\n", a, b, a % b);
 				break;
 			default:
-				System.out.println("�����ڸ� �߸� �Է��߽��ϴ�.");
+				System.out.println("연산자를 잘못입력했다!휴먼.");
 			}
 		}
 	}
-
 }

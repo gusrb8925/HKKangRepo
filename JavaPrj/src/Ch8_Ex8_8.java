@@ -21,7 +21,5 @@ public class Ch8_Ex8_8 {
 			}
 			System.out.println("\n");
 		}
-
 	}
-
 }
