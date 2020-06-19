@@ -39,6 +39,7 @@ public class ExMethodCalc {
 		res = calc(a, b, oper);
 
 		System.out.println("계산 결과는 :" + res);
+		s.close();
 	}
 
 }
