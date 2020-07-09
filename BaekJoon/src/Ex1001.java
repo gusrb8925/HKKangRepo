@@ -8,5 +8,4 @@ public class Ex1001 {
 		int b = s.nextInt();
 		System.out.println(a - b);
 	}
-
 }
