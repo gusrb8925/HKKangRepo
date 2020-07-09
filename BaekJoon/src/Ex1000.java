@@ -8,7 +8,6 @@ public class Ex1000 {
 		int b = s.nextInt();
 		
 		System.out.println(a+b);
-
 	}
 
 }
