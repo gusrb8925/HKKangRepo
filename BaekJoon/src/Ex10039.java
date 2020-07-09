@@ -15,7 +15,6 @@ public class Ex10039 {
 		}
 
 		System.out.println(sum / 5);
-
 	}
 
 }
