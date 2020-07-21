@@ -13,6 +13,7 @@ public class Ex1037 {
 
 		Arrays.sort(arr);
 		System.out.println(arr[0] * arr[a - 1]);
+		
 	}
 
 }
