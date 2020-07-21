@@ -5,6 +5,8 @@ public class Ex1065 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
+		s.close();
+
 		int count = 0;
 
 		if (a < 100) {
