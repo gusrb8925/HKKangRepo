@@ -6,7 +6,7 @@ public class Ex1008 {
 		Scanner s = new Scanner(System.in);
 		double a = s.nextDouble();
 		double b = s.nextDouble();
-		System.out.println(a/b);
+		System.out.println(a / b);
 
 	}
 
