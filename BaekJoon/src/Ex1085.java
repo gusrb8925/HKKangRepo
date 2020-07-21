@@ -8,6 +8,7 @@ public class Ex1085 {
 		int y = s.nextInt();
 		int w = s.nextInt();
 		int h = s.nextInt();
+		s.close();
 
 		System.out.println(Math.min(Math.min(w - x, x), Math.min(h - y, y)));
 	}
