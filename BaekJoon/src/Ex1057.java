@@ -7,6 +7,7 @@ public class Ex1057 {
 		int a = s.nextInt();
 		int b = s.nextInt();
 		int c = s.nextInt();
+		s.close();
 		int count = 0;
 
 		while (b != c) {
