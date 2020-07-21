@@ -10,10 +10,11 @@ public class Ex1037 {
 		for (int i = 0; i < a; i++) {
 			arr[i] = s.nextInt();
 		}
+		s.close();
 
 		Arrays.sort(arr);
 		System.out.println(arr[0] * arr[a - 1]);
-		
+
 	}
 
 }
