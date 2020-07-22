@@ -7,6 +7,8 @@ public class Ex1427 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		String str = s.next();
+		s.close();
+
 		String[] ar = str.split("");
 		Arrays.sort(ar, Collections.reverseOrder());
 
