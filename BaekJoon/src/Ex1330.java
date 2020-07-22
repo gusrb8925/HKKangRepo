@@ -6,6 +6,8 @@ public class Ex1330 {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
 		int b = s.nextInt();
+		s.close();
+
 		if (a > b) {
 			System.out.println(">");
 		} else if (a < b) {
