@@ -18,6 +18,7 @@ public class Ex15802 {
 		}
 
 		bw.flush();
+
 	}
 
 }
