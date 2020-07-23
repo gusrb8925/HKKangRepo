@@ -5,6 +5,8 @@ public class Ex1546 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
+		s.close();
+
 		float sum = 0;
 		float[] ar = new float[n];
 		for (int i = 0; i < n; i++) {
