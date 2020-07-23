@@ -5,6 +5,8 @@ public class Ex2443 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
+		s.close();
+
 		for (int i = 0; i < a; i++) {
 			for (int k = 0; k < i; k++) {
 				System.out.print(" ");
