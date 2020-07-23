@@ -6,6 +6,8 @@ public class Ex16486 {
 		Scanner s = new Scanner(System.in);
 		int d1 = s.nextInt();
 		int d2 = s.nextInt();
+		s.close();
+
 		System.out.println((d1 * 2) + (2 * 3.141592 * d2));
 	}
 
