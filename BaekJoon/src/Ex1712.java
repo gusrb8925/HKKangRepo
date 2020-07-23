@@ -7,6 +7,8 @@ public class Ex1712 {
 		long staticCost = s.nextLong();
 		long cost = s.nextLong();
 		long price = s.nextLong();
+		s.close();
+
 		if (cost >= price) {
 			System.out.println("-1");
 		} else {
