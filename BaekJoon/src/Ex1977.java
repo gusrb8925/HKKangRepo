@@ -9,6 +9,8 @@ public class Ex1977 {
 		List<Integer> al = new ArrayList<>();
 		int a = s.nextInt();
 		int b = s.nextInt();
+		s.close();
+
 		int sum = 0;
 		int c = 0;
 		for (int i = 1; i <= 100; i++) {
