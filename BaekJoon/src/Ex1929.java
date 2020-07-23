@@ -6,6 +6,8 @@ public class Ex1929 {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
 		int b = s.nextInt();
+		s.close();
+
 		int count = 0;
 		for (int i = a; i <= b; i++) {
 			count = 0;

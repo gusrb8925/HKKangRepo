@@ -6,6 +6,8 @@ public class Ex1929_2 {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
 		int b = s.nextInt();
+		s.close();
+
 		int[] ar = new int[b + 1];
 
 		for (int i = 0; i < b + 1; i++) {
