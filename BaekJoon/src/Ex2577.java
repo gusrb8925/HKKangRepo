@@ -7,6 +7,8 @@ public class Ex2577 {
 		int a = s.nextInt();
 		int b = s.nextInt();
 		int c = s.nextInt();
+		s.close();
+
 		int sum = a * b * c;
 		int[] ar = new int[10];
 		while (sum > 0) {
