@@ -6,6 +6,8 @@ public class Ex2581 {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
 		int b = s.nextInt();
+		s.close();
+
 		int min = 10001;
 		int hap = 0;
 		int[] ar = new int[b + 1];
