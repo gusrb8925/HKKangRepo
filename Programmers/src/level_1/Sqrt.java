@@ -1,9 +1,12 @@
-package Level_1;
+package level_1;
 
-public class Sqrt2 {
+public class Sqrt {
 	public static long solution(long n) {
 		double a = Math.sqrt(n);
-		return a == (int) a ? (long) Math.pow(Math.sqrt(n) + 1, 2) : -1;
+		if (a == (int) a) {
+			return (long) Math.pow(Math.sqrt(n) + 1, 2);
+		} else
+			return -1;
 	}
 
 	public static void main(String[] args) {
