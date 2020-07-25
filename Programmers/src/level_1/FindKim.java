@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class FindKim {
 	public static String solution(String[] s) {
