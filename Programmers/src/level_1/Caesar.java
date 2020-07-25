@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class Caesar {
 	public static String solution(String s, int n) {
