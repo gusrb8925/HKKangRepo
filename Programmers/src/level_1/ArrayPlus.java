@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class ArrayPlus {
 	public static int[][] solution(int[][] arr1, int[][] arr2) {
