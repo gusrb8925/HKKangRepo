@@ -1,20 +1,17 @@
-package Level_1;
+package level_1;
 import java.util.*;
 
-public class Dislike {
+public class Dislike2 {
 	public static int[] solution(int[] arr) {
-		int[] answer = {};
 		List<Integer> al = new ArrayList<>();
-
-		for (int i = 0; i < arr.length - 1; i++) {
-			if (arr[i] != arr[i + 1]) {
-				al.add(arr[i]);
+		int a = 10;
+		for (int i : arr) {
+			if (a != i) {
+				al.add(i);
+				a = i;
 			}
 		}
-
-		al.add(arr[arr.length - 1]);
-
-		answer = new int[al.size()];
+		int[] answer = new int[al.size()];
 		int i = 0;
 		Iterator<Integer> it = al.iterator();
 		while (it.hasNext()) {
@@ -30,4 +27,5 @@ public class Dislike {
 		System.out.println(Arrays.toString(solution(arr1)));
 		System.out.println(Arrays.toString(solution(arr2)));
 	}
+
 }
