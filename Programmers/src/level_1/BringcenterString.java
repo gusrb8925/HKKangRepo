@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 class BringcenterString {
 	public String solution(String a) {
