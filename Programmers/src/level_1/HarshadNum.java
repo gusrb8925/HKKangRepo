@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class HarshadNum {
 	public static boolean solution(int x) {
