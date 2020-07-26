@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class PhoneNum {
 	public static String solution(String pn) {
