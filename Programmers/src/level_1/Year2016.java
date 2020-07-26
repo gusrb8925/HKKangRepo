@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class Year2016 {
 	public static String solution(int a, int b) {
