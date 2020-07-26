@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class SumTwoInt {
 	public static long solution(int a, int b) {
