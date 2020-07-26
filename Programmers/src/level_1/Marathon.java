@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 import java.util.Arrays;
 
 class Marathon {
