@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class Strchangeint {
 	public static int solution(String s) {
