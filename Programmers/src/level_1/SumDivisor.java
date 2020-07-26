@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class SumDivisor {
 	public static int solution(int n) {
