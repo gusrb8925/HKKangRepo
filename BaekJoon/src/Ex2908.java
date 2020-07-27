@@ -23,6 +23,7 @@ public class Ex2908 {
 			}
 		}
 		System.out.println(max);
+		s.close();
 	}
 
 }
