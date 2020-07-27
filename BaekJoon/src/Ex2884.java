@@ -7,6 +7,7 @@ public class Ex2884 {
 
 		int h = s.nextInt();
 		int m = s.nextInt();
+		s.close();
 
 		m -= 45;
 		if (m < 0) {
