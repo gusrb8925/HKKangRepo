@@ -1,7 +1,9 @@
 package section10_2;
-//test용
-public class Test implements Comparable {
 
-
+public class Test {
+	
 
 }
+//public class Test implements Comparable {
+
+//}
