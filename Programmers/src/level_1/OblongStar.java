@@ -1,4 +1,5 @@
 package level_1;
+
 import java.util.Scanner;
 
 public class OblongStar {
@@ -12,5 +13,6 @@ public class OblongStar {
 			}
 			System.out.println("");
 		}
+		sc.close();
 	}
 }
