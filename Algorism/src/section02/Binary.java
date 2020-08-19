@@ -6,7 +6,7 @@ package section02;
 public class Binary {
 
 	public static void main(String[] args) {
-		int a = 5;
+		int a = 10;
 		printInBinary(a);
 	}
 
