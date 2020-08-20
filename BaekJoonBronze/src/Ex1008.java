@@ -7,6 +7,7 @@ public class Ex1008 {
 		double a = s.nextDouble();
 		double b = s.nextDouble();
 		System.out.println(a / b);
+		s.close();
 
 	}
 
