@@ -7,5 +7,6 @@ public class Ex1001 {
 		int a = s.nextInt();
 		int b = s.nextInt();
 		System.out.println(a - b);
+		s.close();
 	}
 }
