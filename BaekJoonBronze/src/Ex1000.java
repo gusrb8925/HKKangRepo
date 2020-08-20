@@ -6,8 +6,9 @@ public class Ex1000 {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
 		int b = s.nextInt();
-		
-		System.out.println(a+b);
+
+		System.out.println(a + b);
+		s.close();
 	}
 
 }
