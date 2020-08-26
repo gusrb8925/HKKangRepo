@@ -3,7 +3,7 @@ public class Ex2 {
 
 	public static void main(String[] args) {
 		int i = 3;
-		while (i <= 9) {
+		while (i < 9) {
 			if (i == 3 || i == 5) {
 				System.out.println("<" + i + "단>");
 			}
