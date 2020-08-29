@@ -10,5 +10,4 @@ public class Ex2558 {
 		int b = s.nextInt();
 		System.out.println(a + b);
 	}
-
 }
