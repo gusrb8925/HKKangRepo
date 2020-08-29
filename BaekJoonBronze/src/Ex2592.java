@@ -24,4 +24,5 @@ public class Ex2592 {
 		System.out.println(maxIndex);
 
 	}
+	
 }
