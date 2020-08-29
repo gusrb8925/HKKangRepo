@@ -6,11 +6,11 @@ public class Ex2588 {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
 		int b = s.nextInt();
-		System.out.println(a*(b%10));
-		System.out.println(a*((b%100)/10));
-		System.out.println(a*(b/100));
-		System.out.println(a*b);
-		
+		System.out.println(a * (b % 10));
+		System.out.println(a * ((b % 100) / 10));
+		System.out.println(a * (b / 100));
+		System.out.println(a * b);
+
 	}
 
 }
