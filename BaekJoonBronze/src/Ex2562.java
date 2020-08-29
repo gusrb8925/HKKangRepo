@@ -23,6 +23,7 @@ public class Ex2562 {
 				System.out.println(i + 1);
 			}
 		}
+
 	}
 
 }
