@@ -20,5 +20,4 @@ public class Ex2577 {
 			System.out.println(ar[i]);
 		}
 	}
-
 }
