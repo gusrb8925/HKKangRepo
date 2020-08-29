@@ -22,5 +22,4 @@ public class Ex2566 {
 		System.out.println(max);
 		System.out.println(row + " " + col);
 	}
-
 }
