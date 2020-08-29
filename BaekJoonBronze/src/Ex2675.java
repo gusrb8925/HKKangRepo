@@ -16,5 +16,6 @@ public class Ex2675 {
 			}
 			System.out.println();
 		}
+		s.close();
 	}
 }
