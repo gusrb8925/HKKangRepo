@@ -195,14 +195,14 @@ public class MyArrayList<T> implements List<T> {
             array[i] = array[i + 1];
         }
         size--;
-        return element ;
+        return element;
     }
 
     @Override
     public boolean removeAll(Collection<?> collection) {
-        boolean flag = true;
+        boolean flag = false;
         for (Object obj : collection) {
-            flag &= remove(obj);
+            flag |= remove(obj);
         }
         return flag;
     }
