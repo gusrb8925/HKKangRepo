@@ -9,10 +9,6 @@ import java.util.List;
 
 import org.junit.Test;
 
-/**
- * @author downey
- *
- */
 public class ListClientExampleTest {
 
 	/**
