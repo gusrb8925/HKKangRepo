@@ -6,10 +6,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-/**
- * @param <T>
- * @author downey
- */
 public class MyArrayList<T> implements List<T> {
     int size;                    // 요소의 개수를 추적합니다.
     private T[] array;           // 요소를 저장합니다.
@@ -24,9 +20,6 @@ public class MyArrayList<T> implements List<T> {
         size = 0;
     }
 
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         // run a few simple tests
         MyArrayList<Integer> mal = new MyArrayList<Integer>();
@@ -122,14 +115,6 @@ public class MyArrayList<T> implements List<T> {
         return -1;
     }
 
-    /**
-     * Checks whether an element of the array is the target.
-     * <p>
-     * Handles the special case that the target is null.
-     *
-     * @param target
-     * @param element
-     */
     private boolean equals(Object target, Object element) {
         if (target == null) {
             return element == null;
