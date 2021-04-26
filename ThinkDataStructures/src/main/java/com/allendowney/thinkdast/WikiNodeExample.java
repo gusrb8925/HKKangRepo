@@ -51,7 +51,7 @@ public class WikiNodeExample {
 
         while (!stack.isEmpty()) {
             Node node = stack.pop();
-            if (node instanceof TextNode) {
+            if (node instanceof TextNode) { // Node가 TextNode이면 내용 출력
                 System.out.print(node);
             }
 
@@ -65,7 +65,7 @@ public class WikiNodeExample {
     }
 
     private static void recursiveDFS(Node node) {
-        if (node instanceof TextNode) {
+        if (node instanceof TextNode) { // Node가 TextNode이면 내용 출력
             System.out.print(node);
         }
         for (Node child : node.childNodes()) {
