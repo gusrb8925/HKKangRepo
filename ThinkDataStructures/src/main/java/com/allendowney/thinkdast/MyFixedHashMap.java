@@ -1,0 +1,58 @@
+package com.allendowney.thinkdast;
+
+import java.util.Map;
+
+/**
+ * Implementation of a HashMap using a collection of MyLinearMap and
+ * resizing when there are too many entries.
+ *
+ * @param <K>
+ * @param <V>
+ */
+public class MyFixedHashMap<K, V> extends MyHashMap<K, V> implements Map<K, V> {
+
+    private int size = 0;
+
+    @Override
+    public void clear() {
+        super.clear();
+        size = 0;
+    }
+
+    @Override
+    public V put(K key, V value) {
+        MyLinearMap<K, V> map = chooseMap(key);
+        size -= map.size();
+        V oldValue = map.put(key, value);
+        size += map.size();
+
+        if (size() > maps.size() * FACTOR) {
+            size = 0;
+            rehash();
+        }
+        return oldValue;
+    }
+
+    @Override
+    public V remove(Object key) {
+        MyLinearMap<K, V> map = chooseMap(key);
+        size -= map.size();
+        V oldValue = map.remove(key);
+        size += map.size();
+        return oldValue;
+    }
+
+    @Override
+    public int size() {
+        return size;
+    }
+
+    public static void main(String[] args) {
+        Map<String, Integer> map = new MyFixedHashMap<>();
+        for (int i = 0; i < 10; i++) {
+            map.put(Integer.toString(i), i);
+        }
+        Integer value = map.get("3");
+        System.out.println(value);
+    }
+}
