@@ -11,7 +11,6 @@ public class Main {
         if (!str.equals(tmp)) {
             return "NO";
         }
-
         return answer;
     }
 
