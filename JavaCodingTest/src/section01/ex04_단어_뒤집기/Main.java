@@ -12,7 +12,6 @@ public class Main {
             String res = new StringBuilder(str).reverse().toString();
             answer.add(res);
         }
-
         return answer;
     }
 
