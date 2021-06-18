@@ -30,10 +30,24 @@ public class Main {
         return answer;
     }
 
+    private int solution2(int n) {
+        int answer = 0;
+        int cnt = 1;
+        n--;
+        while (n > 0) {
+            cnt++;
+            n = n - cnt;
+            if (n % cnt == 0) {
+                answer++;
+            }
+        }
+        return answer;
+    }
+
     public static void main(String[] args) {
         Main T = new Main();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.println(T.solution(n));
+        System.out.println(T.solution2(n));
     }
 }
