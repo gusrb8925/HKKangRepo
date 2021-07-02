@@ -16,7 +16,7 @@ class Time implements Comparable<Time> {
     @Override
     public int compareTo(Time o) {
         if (this.end == o.end) return this.start - o.end;
-        return this.end - o.end;
+        else return this.end - o.end;
     }
 }
 
@@ -28,7 +28,7 @@ public class Main {
         for (Time time : arr) {
             if (time.start >= endTime) {
                 answer++;
-                endTime = time.start;
+                endTime = time.end;
             }
         }
         return answer;
