@@ -42,11 +42,11 @@ public class Main {
         pQ.offer(new Edge(1, 0));
         while (!pQ.isEmpty()) {
             Edge now = pQ.poll();
-            int nowVex = now.vex;
-            if (check[nowVex] == 0) {
-                check[nowVex] = 1;
+            int nextVex = now.vex;
+            if (check[nextVex] == 0) {
+                check[nextVex] = 1;
                 answer += now.cost;
-                for (Edge edge : graph.get(nowVex)) {
+                for (Edge edge : graph.get(nextVex)) {
                     if (check[edge.vex] == 0) {
                         pQ.offer(new Edge(edge.vex, edge.cost));
                     }
